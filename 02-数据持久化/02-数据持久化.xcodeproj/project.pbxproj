@@ -14,6 +14,7 @@
 		CC5721931B730F7D001A23DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5721911B730F7D001A23DF /* LaunchScreen.xib */; };
 		CC57219F1B730F7D001A23DF /* _2______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC57219E1B730F7D001A23DF /* _2______Tests.m */; };
 		CC5721AA1B73103D001A23DF /* QYCAPIOpsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5721A91B73103D001A23DF /* QYCAPIOpsVC.m */; };
+		CCA1EDD81B73529D000E2EFE /* QYUserDefautsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1EDD71B73529D000E2EFE /* QYUserDefautsVC.m */; };
 		CCBB86DC1B73394700AD8DDD /* QYOCFileOpsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBB86DB1B73394700AD8DDD /* QYOCFileOpsVC.m */; };
 		CCD836E61B7341BF0029D91D /* QYPListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD836E51B7341BF0029D91D /* QYPListVC.m */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,8 @@
 		CC57219E1B730F7D001A23DF /* _2______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______Tests.m"; sourceTree = "<group>"; };
 		CC5721A81B73103D001A23DF /* QYCAPIOpsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCAPIOpsVC.h; sourceTree = "<group>"; };
 		CC5721A91B73103D001A23DF /* QYCAPIOpsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYCAPIOpsVC.m; sourceTree = "<group>"; };
+		CCA1EDD61B73529D000E2EFE /* QYUserDefautsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUserDefautsVC.h; sourceTree = "<group>"; };
+		CCA1EDD71B73529D000E2EFE /* QYUserDefautsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYUserDefautsVC.m; sourceTree = "<group>"; };
 		CCBB86DA1B73394700AD8DDD /* QYOCFileOpsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYOCFileOpsVC.h; sourceTree = "<group>"; };
 		CCBB86DB1B73394700AD8DDD /* QYOCFileOpsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYOCFileOpsVC.m; sourceTree = "<group>"; };
 		CCD836E41B7341BF0029D91D /* QYPListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPListVC.h; sourceTree = "<group>"; };
@@ -124,6 +127,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CCA1EDD51B73527C000E2EFE /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1EDD61B73529D000E2EFE /* QYUserDefautsVC.h */,
+				CCA1EDD71B73529D000E2EFE /* QYUserDefautsVC.m */,
+			);
+			name = NSUserDefaults;
+			sourceTree = "<group>";
+		};
 		CCBB86D61B73390300AD8DDD /* C-APIs */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +148,7 @@
 		CCBB86D71B73391000AD8DDD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CCA1EDD51B73527C000E2EFE /* NSUserDefaults */,
 				CCD836E31B7341B00029D91D /* PList */,
 				CCBB86D81B73392000AD8DDD /* Raw File APIs */,
 			);
@@ -271,6 +284,7 @@
 			files = (
 				CC5721881B730F7D001A23DF /* AppDelegate.m in Sources */,
 				CCBB86DC1B73394700AD8DDD /* QYOCFileOpsVC.m in Sources */,
+				CCA1EDD81B73529D000E2EFE /* QYUserDefautsVC.m in Sources */,
 				CCD836E61B7341BF0029D91D /* QYPListVC.m in Sources */,
 				CC5721851B730F7D001A23DF /* main.m in Sources */,
 				CC5721AA1B73103D001A23DF /* QYCAPIOpsVC.m in Sources */,
